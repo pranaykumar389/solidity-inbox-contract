@@ -2,7 +2,7 @@
   "name": "solidity-inbox-contract",
   "version": "1.0.0",
   "description": "A Simple Solidity Contract",
-  "main": "index.js",
+  "main": "deploy.js",
   "scripts": {
     "test": "mocha"
   },
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/pranaykumar389/solidity-inbox-contract#readme",
   "dependencies": {
+    "@truffle/hdwallet-provider": "^1.6.0",
     "ganache-cli": "^6.12.2",
     "mocha": "^9.1.3",
     "solc": "^0.4.17",
